@@ -18,7 +18,7 @@ class _DarkScreenState extends State<DarkScreen   > {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('Bright Screens Template')),
+        appBar: AppBar(title: Text('Dark Screens Template')),
         body: ListView.builder(
           itemBuilder: (ctx, index) {
             return ListPlace(

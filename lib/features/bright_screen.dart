@@ -17,7 +17,7 @@ class _BrightScreenState extends State<BrightScreen> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('Dark Screens Template')),
+        appBar: AppBar(title: Text('Bright Screens Template')),
         body: ListView.builder(
           itemBuilder: (ctx, index) {
             return ListPlace(
